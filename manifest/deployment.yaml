@@ -16,6 +16,6 @@ spec:
     spec:
       containers:  # Corrected indentation for "containers"
       - name: next-js
-        image: jingnin/next-image
+        image: jingnin/next-img
         ports:
           - containerPort: 3000
