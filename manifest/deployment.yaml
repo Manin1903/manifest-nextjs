@@ -7,16 +7,15 @@ metadata:
 spec:
   replicas: 1
   selector:
-    macthLabels:
+    matchLabels:  # Corrected from "macthLabels"
       app: next-js
   template:
     metadata:
       labels:
         app: next-js
     spec:
-      container:
+      containers:  # Corrected indentation for "containers"
       - name: next-js
         image: jingnin/next-image
         ports:
           - containerPort: 3000
-        
