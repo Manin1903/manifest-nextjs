@@ -1,1 +1,11 @@
-api
+apiVersion: v1
+kind: Service
+metadata:
+  name: next-service
+spec:
+  selector:
+    app: next-js
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
