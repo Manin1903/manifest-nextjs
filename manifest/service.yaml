@@ -3,12 +3,11 @@ kind: Service
 metadata:
   name: next-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: next-js
   ports:
   - protocol: TCP
     port: 3000
     targetPort: 3000
-    nodePort: 30010
   
