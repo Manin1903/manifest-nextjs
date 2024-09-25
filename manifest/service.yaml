@@ -8,6 +8,6 @@ spec:
     app: next-js
   ports:
   - protocol: TCP
-    port: 3000
+    port: 3002
     targetPort: 3000
   
