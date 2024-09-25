@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: next-service
 spec:
-  type: LoadBalance
   selector:
     app: next-js
   ports:
